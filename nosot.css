@@ -1,0 +1,123 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'calibri light'
+}
+
+#linea{
+	width: 100%;
+	height: 5px;
+	background: #086A87
+}
+
+#header{
+	width: 100%;
+	height: 90px;
+	background:#E193CE;
+}
+
+#header #centro1{
+	width: 800px;
+	height: auto; overflow: hidden;
+	border: 0px solid #fff;
+	margin: auto;
+}
+
+#header #centro1 #logo{
+	width: 200px; border: 0px solid; 
+	float: left;
+}
+.alin{
+	text-align: justify;
+
+}	
+/*----------------menu---------------------*/
+
+#header #menu{
+	width: 580px;
+	height: auto; overflow: hidden;
+	border: 0px solid; float: right;
+	margin-top: 40px;
+	text-align: right;
+	padding-bottom: -5px;
+
+}
+
+#header #menu ul li{
+	display: inline-block;
+	padding-top: 5px;
+}
+
+#header #menu ul li a{
+	color: #000; text-decoration: none;
+	padding: 7px 10px; font-size: 14px;
+	margin: 0px 4px;
+	margin-bottom: 5px;
+	font-family: 'Arial black'
+	
+}
+
+
+#header #menu ul li a:hover{
+	background: #615bb6;
+	color: #EDE7F0;
+}
+
+/*------------------------------------*/
+
+
+#centro3{
+	width: 800px;
+	margin: auto; border: 0px solid; height: auto; overflow: hidden;
+	text-align: center;
+
+}
+
+.encabezados{
+	font-family: 'Arial black';
+	font-size: 30px;
+}
+
+.t1{
+	color:#103784;
+}
+
+
+.descripcion-pagina{
+	color:#424242;
+	font-family: 'Arial';
+	font-size: 15px;
+	
+}
+
+
+
+#des{
+	height: auto; overflow: hidden;
+}
+
+
+#mision, #vision{
+	width: 350px;
+	height: auto; overflow: hidden;
+	border: 1px solid #ccc;
+	display: inline-block;
+	border-radius: 5px;
+	padding: 5px;
+	
+}
+
+
+#vision{
+	margin-right: 7px;
+	margin-left: 7px;
+}
+
+
+.img-des{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 1px solid #ccc;
+	padding: 2px;
+}

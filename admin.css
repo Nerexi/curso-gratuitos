@@ -1,0 +1,118 @@
+
+/*----------------Administrador ---------------------*/
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'calibri light'
+}
+
+#linea{
+	width: 100%;
+	height: 5px;
+	background: #086A87
+}
+
+#header{
+	width: 100%;
+	height: 90px;
+	background: #0B2F3A;
+}
+
+#header #centro1{
+	width: 800px;
+	height: auto; overflow: hidden;
+	border: 0px solid #fff;
+	margin: auto;
+}
+
+#header #centro1 #logo{
+	width: 200px; border: 0px solid; 
+	float: left;
+}
+
+#header #centro1 #logo h2{
+	color: #fdfdfd;
+}
+
+#header #menu{
+	width: 580px;
+	height: auto; overflow: hidden;
+	border: 0px solid; float: right;
+	margin-top: 40px;
+	text-align: right;
+	padding-bottom: -5px;
+
+}
+#header #menu ul li{
+	display: inline-block;
+	padding-top: 5px;
+}
+#header #menu ul li a{
+	color: #EDE7F0; text-decoration: none;
+	padding: 7px 10px; font-size: 17px;
+	margin: 0px 4px;
+	margin-bottom:5px;
+}
+
+#header #menu ul li a:hover{
+	background: #7474d4;
+	color: #f3f3f8 ;
+}
+
+
+
+#presentacion{
+	width: 100%;
+	height: auto;overflow: hidden;
+	background: #064154;
+	padding: 10px 0px;
+}
+#presentacion #centro2{
+	width: 800px;
+	margin: auto; border: 0px solid;
+	
+}
+#presentacion #centro2 #izquierda{
+	width: 290px;
+	height: 200px; border: 0px solid; float: left;
+	
+}
+
+#presentacion #centro2 #izquierda h2{
+	color: #fff; font-weight: lighter;
+}
+
+.descripcion-pres{
+	color: #f1f1f1; text-align: left; width: 200px;
+	margin-left: 0px;
+	
+
+}
+
+.descripcion{
+	font-family:"Arial"
+	
+
+}
+
+.img{
+	width: 470px;
+	border: 3px solid #088A85;
+	height: 180px;
+	background-size: 100%;
+	margin: 20px 0px; float: right;
+	margin-right: 10px;
+}
+
+#contenidos{
+	background: #F2F2F2;
+	padding: 0px 0px 20px 0px;
+}
+
+#contenidos #centro3{
+	width: 800px;
+	margin: auto; border: 0px solid; height: auto; overflow: hidden;
+	text-align: center;
+
+}

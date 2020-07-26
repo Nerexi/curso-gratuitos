@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8">	
+	 	  <title></title>	
+		   <link rel="stylesheet" type="text/css" href="css/tabla.css">
+	</head>
+	  <body>
+    <div id="principal">
+        <header>
+            
+            <div id="logo">
+
+                <img src="imagen/la.jpg" width="135" height="135">
+                    
+            </div>
+
+              <nav class="menu">
+
+                <ul>
+                       <li><a href="index.html">Inicio</a></li>
+                      <li><a href="estudiantes.html">Estudiantes</a></li>
+                      <li><a href="administrador.html">Administrador</a></li>
+
+                </ul>
+              </nav>
+            
+        </header>
+
+    
+   <div id="main-container" >
+	    <table>
+	     <thead>
+	       <tr>
+
+           <th>Nombre</th>
+
+           <th>Apellido</th>
+        <th></th>
+       </thead>
+
+         </tr>
+
+         <tr>
+
+       <td>Mateo</td>
+
+        <td>Domínguez</td>
+           <td> <button onclick="mensaje()"> Aceptado </button>
+           <button onclick="mensaje1()"> Rechazado</button>
+           </td>
+
+         </tr>
+
+         <tr>
+
+        <td>Sara</td>
+
+        <td>Macias</td>
+
+        <td> <button onclick="mensaje()"> Aceptado </button>
+         <button onclick="mensaje1()"> Rechazado</button>
+         </td>
+
+       </tr>
+
+       <tr>
+
+         <td>Laura</td>
+
+         <td>Pico</td>
+         <td> <button onclick="mensaje()"> Aceptado </button>
+           <button onclick="mensaje1()"> Rechazado</button>
+        </td>
+
+        </tr>
+
+         <tr>
+         <td>Karol</td>
+
+          <td>Pico</td>
+         <td> <button onclick="mensaje()"> Aceptado </button>
+         <button onclick="mensaje1()"> Rechazado</button>
+         </td>
+ 
+         </tr>
+
+          <tr>
+            <td>Daniel</td>
+
+            <td>Mero</td>  
+
+            <td> <button onclick="mensaje()"> Aceptado </button>
+            <button onclick="mensaje1()"> Rechazado</button>
+            </td>
+
+          </tr>
+
+           <tr>
+            <td>Carlos</td>
+
+           <td>Álvarez</td>  
+
+           <td> <button onclick="mensaje()"> Aceptado </button>
+           <button onclick="mensaje1()"> Rechazado</button>
+           </td>
+
+          </tr>
+
+      </table>
+   
+</div>
+
+     <script>
+        function mensaje(){
+        alert("Se acepto a el estudiante")
+        }
+        function mensaje1(){
+        alert("Se rechazo a el estudiante")
+        }
+
+     </script>
+
+	</body>
+</html>
