@@ -82,14 +82,14 @@ header{
 
 
  #nombre{
-	 background-image:url(../imagen/n.jpg);
+	 background-image:url(./n.png);
 	 background-size: 30px 30px;
 	 background-position: 11px 11px;
 	 background-repeat: no-repeat;
 	 
  }
  #apellido{
-	 background-image:url(../imagen/n.jpg);
+	 background-image:url(./n.png);
 	 background-size: 30px 30px;
 	 background-position: 11px 11px;
 	 background-repeat: no-repeat;
@@ -97,7 +97,7 @@ header{
  }
  
   #email{
-	 background-image:url(../imagen/g.jpg);
+	 background-image:url(./g.png);
 	 background-size: 30px 30px;
 	 background-position: 11px 11px;
 	 background-repeat: no-repeat;
@@ -105,7 +105,7 @@ header{
  }
 
  #password{
-	 background-image:url(../imagen/p.png);
+	 background-image:url(./p.png);
 	 background-size: 30px 30px;
 	 background-position: 11px 11px;
 	 background-repeat: no-repeat;
